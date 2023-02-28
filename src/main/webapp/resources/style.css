@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.emp-header-title{
+    font-size: xx-large;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.emp-section-title{
+    margin-inline: 40px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.emp-add-new-employee-table{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    border-color: #F3F4F6;
+    gap: 8px;
+    padding: 8px;
+}
+
+.emp-add-new-employee-table-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 5px;
+}
+
+.emp-table-inner-container{
+    width: calc(100% - 40px);
+    background-color: #F3F4F6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    padding-inline: 20px;
+    justify-content: center;
+    border-radius: 4px;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.emp-table-inner-container-label{
+    margin-right: 20px;
+    font-weight: 500;
+    width: 85px;
+
+}
+.emp-table-inner-container-input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding-inline: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.emp-table-container-button-div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.emp-button{
+    border: 1px solid;
+    padding-inline: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow:0 4px 3px rgb(0 0 0 / 0.07);
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem;
+    width: fit;
+    transition: all 0.15 ease-in-out;
+    background-color: #86EFAC;
+    border: none;
+}
+
+.emp-button:hover{
+    transition: all 0.15 ease-in-out;
+    background-color: rgb(74 222 128);;
+}
+.mx-10{
+    margin-inline: 40px;
+}
+.my-10{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.my-5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.emp-list-table-container{
+    margin-inline: 40px;
+    border: 1px solid;
+    border-color: #b3b2b2;
+    border-radius: 4px;
+}
+.emp-list-table{
+    width: 100%;
+    text-align: left;
+    /* padding: 50px; */
+    box-shadow:0 4px 3px rgb(0 0 0 / 0.07);
+    background-color: white;
+    margin: 0;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+.emp-table-list-head{
+    background-color: rgb(243 244 246);
+    text-align: left;
+    padding-inline: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+.emp-table-list-row{
+
+    text-align: left;
+    padding-inline: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid rgba(128, 128, 128, 0.175);
+}
+
+.emp-button-list{
+    border: 1px solid;
+    padding-inline: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    transition: all 0.15 ease-in-out;
+    background-color: #86EFAC;
+    border: none;
+    height: 100%;
+}
+
+.emp-button-list:hover{
+    transition: all 0.15 ease-in-out;
+    background-color: rgb(74 222 128);;
+}
+
+.emp-button-list-red{
+    border: 1px solid;
+    padding-inline: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    transition: all 0.15 ease-in-out;
+    background-color: rgb(252 165 165);
+    border: none;
+}
+
+.emp-button-list-red:hover{
+    transition: all 0.15 ease-in-out;
+	background-color: rgb(248 113 113);
+}
+
+.link{
+    font-size: medium ;
+    font-weight: 500;
+    margin-right: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.175);
+    background-color: rgb(243 244 246);
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 24px 40px;
+    transition: all 0.25 ease-in-out;
+}
+
+.link:hover{
+    background-color: rgba(243, 244, 246, 0.796);
+    transition: all 0.25 ease-in-out;
+
+}
